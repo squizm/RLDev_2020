@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "2cd55ee4-a857-4315-a9b6-fb5b40b0d0ed",
+            "Value": {
+                "id": "3bb77c1b-4d00-4c67-ab9b-50a7a691b611",
+                "resourcePath": "views\\2cd55ee4-a857-4315-a9b6-fb5b40b0d0ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "30e29b97-77f7-419d-9da9-d30f57528c47",
             "Value": {
                 "id": "51484f16-b7b1-4623-af46-cb866db0f3cd",
@@ -124,6 +132,14 @@
                 "id": "c8f6ab75-8d54-4c3b-8765-876146fdc266",
                 "resourcePath": "scripts\\state_switch_previous\\state_switch_previous.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "40d84c0e-2da5-4492-8ef9-71cfe31b1c57",
+            "Value": {
+                "id": "81f16258-9008-4240-9d24-4df5a7e2dec0",
+                "resourcePath": "objects\\objDungeonGenerator\\objDungeonGenerator.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,11 +359,27 @@
             }
         },
         {
+            "Key": "cc3d25fc-7517-43c3-82cf-122ea565726c",
+            "Value": {
+                "id": "8040243b-3eec-4c94-8810-41ad1a242b56",
+                "resourcePath": "scripts\\getNumAdjacentWalls\\getNumAdjacentWalls.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "32786861-3421-4dc4-b5d9-970072a3b14c",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d6a483ca-4588-4f47-bf5d-2002cd1e6f6c",
+            "Value": {
+                "id": "ce8bfcb4-f71d-428f-b251-84b996745ec7",
+                "resourcePath": "scripts\\smoothTilemap\\smoothTilemap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -421,6 +453,14 @@
                 "resourcePath": "scripts\\state_init\\state_init.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "fb010222-8b82-4dfe-8173-5d993533032b",
+            "Value": {
+                "id": "952e8f0b-1824-45f5-a903-3a338e6d1a1d",
+                "resourcePath": "rooms\\roomgen\\roomgen.yy",
+                "resourceType": "GMRoom"
+            }
         }
     ],
     "script_order": [
@@ -436,7 +476,9 @@
         "f82a0ac0-e588-4c37-92aa-f547e8d0a281",
         "527c2462-d011-48b8-aa93-37ad5a85159e",
         "843daa46-d17c-4fd8-ad15-23415c44ab2b",
-        "c405ebb7-cfc3-4f21-a06b-89f20e7e0061"
+        "c405ebb7-cfc3-4f21-a06b-89f20e7e0061",
+        "cc3d25fc-7517-43c3-82cf-122ea565726c",
+        "d6a483ca-4588-4f47-bf5d-2002cd1e6f6c"
     ],
     "tutorial": ""
 }

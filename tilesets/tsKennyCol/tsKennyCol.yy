@@ -4,7 +4,31 @@
     "mvc": "1.11",
     "name": "tsKennyCol",
     "auto_tile_sets": [
-        
+        {
+            "id": "b5189f12-d049-4065-9b99-3a1a318669bd",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "autotile_1",
+            "tiles": [
+                15,
+                31,
+                28,
+                1,
+                57,
+                17,
+                142,
+                44,
+                56,
+                141,
+                14,
+                45,
+                59,
+                42,
+                43,
+                0
+            ]
+        }
     ],
     "macroPageTiles": {
         "SerialiseData": null,
