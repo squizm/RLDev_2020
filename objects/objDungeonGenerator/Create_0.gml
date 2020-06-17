@@ -1,19 +1,21 @@
 /// @description Generate Random Dungeon
+randomize()
 global.tileLayer = layer_create(5, "walls")
 global.tileElement = layer_tilemap_create(global.tileLayer,0,0,tsKennyCol,room_width div 8, room_height div 8)
 
 var empty = 15
-var wall = 16
+var wall = 75
+var grass = 61
 
 for(var xx = 0; xx < room_width div 8; xx++)
 {
 	for(var yy = 0; yy < room_height div 8; yy++)
 	{
-		tilemap_set(global.tileElement, choose(empty,wall), xx,yy)
+		tilemap_set(global.tileElement, choose(empty,wall,grass), xx,yy)
 	}
 }
 
-for(var i = 0; i < 1; i++) {
+for(var i = 0; i < 4; i++) {
 	smoothTilemap(global.tileElement)
 }
 
