@@ -1,7 +1,9 @@
 /// @description Setup Window
-cursor_sprite = sprCursor
-window_set_cursor(cr_none)
+cursor_sprite = sprCursor;
+draw_set_font(fntDamage);
+window_set_cursor(cr_none);
 isFullscreen = false;
+global.save_gif = false;
 randomize()
 
 #macro TILE_EMPTY 15
