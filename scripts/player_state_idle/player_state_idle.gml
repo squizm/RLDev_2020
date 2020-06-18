@@ -15,10 +15,10 @@ if(hmove != 0 or vmove != 0)
 {
 	startX = x
 	startY = y
-	//var layerID = layer_get_id("tiles_walls")
-	//var tmID = layer_tilemap_get_id(layerID)
-	var tileData = isTileEmptyByPixel(x + (hmove*8) + sprite_get_xoffset(sprite_index), y + (vmove*8) + sprite_get_yoffset(sprite_index))
-	if(tileData == 15 || tileData = 60){	
+	var layerID = layer_get_id("tiles")
+	var tl = layer_tilemap_get_id(layerID)
+	var tileData = getTileDataByPixel(tl,x + (hmove*8) + sprite_get_xoffset(sprite_index), y + (vmove*8) + sprite_get_yoffset(sprite_index))
+	if(tileData != TILE_TREE){	
 		audio_sound_pitch(sndStep, random_range(0.8,1.2))
 		audio_play_sound(sndStep, 0, false)
 		destX = x + (hmove*8)

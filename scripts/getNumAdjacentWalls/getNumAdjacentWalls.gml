@@ -16,7 +16,7 @@ for(var i = xx-1; i <= xx+1; i++)
 		if(j < 0){ continue }
 		if(i=xx && j=yy) { continue }
 		
-		if(tilemap_get(tl,i,j) == 75){
+		if(tilemap_get(tl,i,j) == TILE_TREE){
 			numWalls++
 		}
 	}

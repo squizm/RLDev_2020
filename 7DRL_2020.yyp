@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+        "default"
     ],
     "option_ecma": false,
     "parentProject": {
@@ -231,27 +231,11 @@
             }
         },
         {
-            "Key": "82857643-3408-4210-9e87-2656004b15cb",
-            "Value": {
-                "id": "0de85898-16db-45b6-9795-3b601fa00652",
-                "resourcePath": "rooms\\testRoom\\testRoom.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "835d7d9c-db5f-4dd2-854a-062553f64666",
             "Value": {
                 "id": "102472d6-fddf-48fa-a9ff-686d8f6b8dbd",
                 "resourcePath": "views\\835d7d9c-db5f-4dd2-854a-062553f64666.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "843daa46-d17c-4fd8-ad15-23415c44ab2b",
-            "Value": {
-                "id": "e57d7508-ad4e-4bc6-9656-166a8e663548",
-                "resourcePath": "scripts\\isTileEmpty\\isTileEmpty.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -354,7 +338,7 @@
             "Key": "c405ebb7-cfc3-4f21-a06b-89f20e7e0061",
             "Value": {
                 "id": "2bedbe61-18ad-4735-9bbe-8a007e843a87",
-                "resourcePath": "scripts\\isTileEmptyByPixel\\isTileEmptyByPixel.yy",
+                "resourcePath": "scripts\\getTileDataByPixel\\getTileDataByPixel.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -475,7 +459,6 @@
         "a90d656f-df5c-44a8-b77e-e1a72dd8d224",
         "f82a0ac0-e588-4c37-92aa-f547e8d0a281",
         "527c2462-d011-48b8-aa93-37ad5a85159e",
-        "843daa46-d17c-4fd8-ad15-23415c44ab2b",
         "c405ebb7-cfc3-4f21-a06b-89f20e7e0061",
         "cc3d25fc-7517-43c3-82cf-122ea565726c",
         "d6a483ca-4588-4f47-bf5d-2002cd1e6f6c"
