@@ -239,14 +239,6 @@
             }
         },
         {
-            "Key": "85ddb038-85af-48d0-b89f-6d313ffe4065",
-            "Value": {
-                "id": "36ace027-ec06-401c-b663-b0795206ab24",
-                "resourcePath": "sprites\\sprUIPack\\sprUIPack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "86dadf18-5e4f-4060-8237-f8445c35b96f",
             "Value": {
                 "id": "aadaf517-f0b1-4aea-afe2-f5dafba703d8",
@@ -295,11 +287,27 @@
             }
         },
         {
+            "Key": "a1adc3b1-8237-4c52-ad00-5dd54d3c38d5",
+            "Value": {
+                "id": "b3ac8822-05e9-4bd5-8d8b-8e1309269e76",
+                "resourcePath": "sprites\\sprCollision\\sprCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a2941aab-e762-4990-aaf2-c6a26757ee0e",
             "Value": {
                 "id": "58a3fbff-f58f-4fa2-b048-aa92a2f10c0e",
                 "resourcePath": "views\\a2941aab-e762-4990-aaf2-c6a26757ee0e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a35afda5-feb9-4c06-9527-30daa4dd3932",
+            "Value": {
+                "id": "731b99af-f7ae-407f-a34c-dec0f94beb18",
+                "resourcePath": "scripts\\createFoVSurface\\createFoVSurface.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -332,6 +340,14 @@
                 "id": "2b6e15a5-60c6-4f9f-9a69-8249ce67c017",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "bce34a65-5440-4757-a611-2b31c911ab9a",
+            "Value": {
+                "id": "1d124137-c2a8-4159-a362-bb968eaf4424",
+                "resourcePath": "objects\\objFOV\\objFOV.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -380,6 +396,14 @@
                 "id": "f40a7dc3-19c2-4b36-9059-1cdd60cc0663",
                 "resourcePath": "views\\dd885f0a-ac23-4e5f-9458-ea9e1177ad10.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2598d6f-cb2f-4215-b62d-b48a3d6423bf",
+            "Value": {
+                "id": "770b4792-d30f-499e-80e8-8da71d2000fc",
+                "resourcePath": "objects\\objCollision\\objCollision.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -469,7 +493,8 @@
         "527c2462-d011-48b8-aa93-37ad5a85159e",
         "c405ebb7-cfc3-4f21-a06b-89f20e7e0061",
         "cc3d25fc-7517-43c3-82cf-122ea565726c",
-        "d6a483ca-4588-4f47-bf5d-2002cd1e6f6c"
+        "d6a483ca-4588-4f47-bf5d-2002cd1e6f6c",
+        "a35afda5-feb9-4c06-9527-30daa4dd3932"
     ],
     "tutorial": ""
 }

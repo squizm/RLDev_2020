@@ -1,19 +1,10 @@
 {
-    "id": "40d84c0e-2da5-4492-8ef9-71cfe31b1c57",
+    "id": "e2598d6f-cb2f-4215-b62d-b48a3d6423bf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objDungeonGenerator",
+    "name": "object3",
     "eventList": [
-        {
-            "id": "df9cfeac-bbff-46e9-aa32-53d0b9ee94fb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "40d84c0e-2da5-4492-8ef9-71cfe31b1c57"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
