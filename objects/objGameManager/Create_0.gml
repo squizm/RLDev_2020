@@ -11,9 +11,6 @@ randomize()
 #macro TILE_GRASS 61
 #macro TILE_DIRT 60
 
-tileLayer = layer_get_id("tiles")
-tileElement = layer_tilemap_get_id(tileLayer)
-
 for(var i = 0; i < 50; i++){
 	
 	var found = false

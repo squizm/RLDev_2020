@@ -1,4 +1,3 @@
-
 if(x != destX) {
 	x = lerp(x, destX, 0.5);
 	if(abs(destX - x) < 1) { x = destX}
