@@ -2,8 +2,7 @@
 /// @param tileLayer {real} the tile layer ID of the layer to check
 /// @param x {integer} the x location of the cell
 /// @param y {integer} the y location of the cell
-
-var tl = argument[0]
+var grid = argument[0]
 var xx = argument[1]
 var yy = argument[2]
 var numWalls = 0
@@ -15,8 +14,7 @@ for(var i = xx-1; i <= xx+1; i++)
 	{
 		if(j < 0){ continue }
 		if(i=xx && j=yy) { continue }
-		
-		if(tilemap_get(tl,i,j) == TILE_TREE){
+		if(ds_grid_get(grid,i,j) == TILE_TREE){
 			numWalls++
 		}
 	}

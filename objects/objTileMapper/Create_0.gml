@@ -27,7 +27,7 @@ for(var i = 0; i < 50; i++){
 	char.image_index = random(char.image_number)
 	with(char){
 		sprite_set_offset(sprite_index,4,7)
-		depth = -1;
+		depth = -2;
 	}
 }
 
