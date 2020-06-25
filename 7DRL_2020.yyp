@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2ef1b695-0638-4c58-8416-e04002d2d20f",
+            "Value": {
+                "id": "964980f7-9836-4f9c-a6ca-05399628f8cf",
+                "resourcePath": "scripts\\getTileAt\\getTileAt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2f663daa-c62e-4d0f-9180-cb2c3a0ffc49",
             "Value": {
                 "id": "4d33dc25-3a13-4090-a8de-bc4d98b0ab25",
@@ -218,7 +226,7 @@
             "Key": "6e73b842-b373-4d99-9d53-8dc49c53777a",
             "Value": {
                 "id": "97e04f64-ea0e-4a89-b230-16b1f50120e9",
-                "resourcePath": "scripts\\scrFindEmptyTile\\scrFindEmptyTile.yy",
+                "resourcePath": "scripts\\findEmptyTile\\findEmptyTile.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -383,14 +391,6 @@
             }
         },
         {
-            "Key": "d937191e-8ee6-42d3-bcb1-4c6bb76e52ad",
-            "Value": {
-                "id": "f13beca4-1072-4e5d-9eb4-36476681e5cc",
-                "resourcePath": "views\\d937191e-8ee6-42d3-bcb1-4c6bb76e52ad.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "dd885f0a-ac23-4e5f-9458-ea9e1177ad10",
             "Value": {
                 "id": "f40a7dc3-19c2-4b36-9059-1cdd60cc0663",
@@ -494,6 +494,7 @@
         "835c69a0-06f7-4674-b38e-429cd3fe048f",
         "f77bb25d-49c8-47d5-a012-3c266b41f58b",
         "6e73b842-b373-4d99-9d53-8dc49c53777a",
+        "2ef1b695-0638-4c58-8416-e04002d2d20f",
         "9ad6a104-5421-4ffc-8c74-a5d51bd68ddc"
     ],
     "tutorial": ""

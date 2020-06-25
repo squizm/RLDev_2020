@@ -1,4 +1,4 @@
-/// @description smoothTilemap2(grid)
+/// @description smoothTiles(grid)
 /// @param tileLayer {real} the ds_grid containing the tiles
 
 var grid = argument[0]
