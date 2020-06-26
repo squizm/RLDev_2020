@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "a35afda5-feb9-4c06-9527-30daa4dd3932",
+            "Value": {
+                "id": "d44991eb-ddb5-4cf7-b930-8c32b0c70f7f",
+                "resourcePath": "scripts\\createFoVSurface\\createFoVSurface.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a4ca4497-7f0a-4006-af5e-09ed224d6058",
             "Value": {
                 "id": "876f5fbe-7d45-42e6-9a81-de30bb9ab1b4",
@@ -471,6 +479,7 @@
         "f77bb25d-49c8-47d5-a012-3c266b41f58b",
         "6e73b842-b373-4d99-9d53-8dc49c53777a",
         "2ef1b695-0638-4c58-8416-e04002d2d20f",
+        "a35afda5-feb9-4c06-9527-30daa4dd3932",
         "9ad6a104-5421-4ffc-8c74-a5d51bd68ddc"
     ],
     "tutorial": ""
