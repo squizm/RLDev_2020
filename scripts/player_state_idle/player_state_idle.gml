@@ -25,13 +25,18 @@ if(hmove != 0 || vmove != 0)
 		destX = x + (hmove*8)
 		destY = y + (vmove*8)
 		surface_free(surfFOV)
+		surface_free(grid.tileSurf)
+		surface_free(grid.seenTileSurf)
 		state_switch("Move")
 	}else{
 		destX = x + (hmove*4)
 		destY = y + (vmove*4)
 		audio_play_sound(sndPlayerHit,0,false)
 		ds_grid_set(grid.tilemap, (x div 8) + hmove, (y div 8) + vmove, TILE_GRASS);
+		ds_grid_set(grid.seenTiles, (x div 8) + hmove, (y div 8) + vmove, true);
 		surface_free(grid.tileSurf)
+		surface_free(grid.seenTileSurf)
+		surface_free(surfFOV)
 		state_switch("Bump")
 	}
 }

@@ -13,4 +13,3 @@ if(y != destY) {
 if(x == startX && y == startY) {
 	state_switch("Idle");
 }
-surface_free(surfFOV)

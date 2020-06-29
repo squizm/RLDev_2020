@@ -1,10 +1,14 @@
 /// @description Create tile surface
 /// @description Insert description here
 // You can write your code in this editor
-tilemap = ds_grid_create(room_width div 8 , room_height div 8);
-ds_grid_clear(tilemap, TILE_TREE);
+
 gridWidth = room_width div 8;
 gridHeight  = room_height div 8;
+tilemap = ds_grid_create(gridWidth, gridHeight);
+seenTiles = ds_grid_create(gridWidth, gridHeight);
+ds_grid_clear(tilemap, TILE_TREE);
+ds_grid_clear(seenTiles, false);
+
 randomize();
 depth = -1;
 	
@@ -18,7 +22,8 @@ for (var xx = 0; xx < gridWidth ; ++xx){
 //Smooth map
 for(var i = 0; i < 5; i++) { smoothTiles(tilemap) }
 	
-tileSurf = 0
+tileSurf = noone;
+seenTileSurf = noone;
 
 //Add characters
 for(var i = 0; i < 50; i++){
@@ -31,7 +36,7 @@ for(var i = 0; i < 50; i++){
 }
 
 var location = findEmptyTile(tilemap)
-var player = instance_create_layer(location[0]*8,location[1]*8,"Instances", objCharacter);
+player = instance_create_layer(location[0]*8,location[1]*8,"Instances", objCharacter);
 with(player){
 	isPlayer = true;
 	depth= -2
