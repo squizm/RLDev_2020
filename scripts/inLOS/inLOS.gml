@@ -21,7 +21,7 @@ repeat (checks)
 
 	var grid = instance_find(objTileMapper, 0);
 	var tileData = getTileAt(grid.tilemap,xCheck div 8, yCheck div 8)
-	if(tileData == TILE_TREE || tileData == -1)
+	if(tileData == TILE_TREE)
 	{
 		return false;
 	}
