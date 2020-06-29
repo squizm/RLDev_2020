@@ -26,7 +26,6 @@ for(var i = 0; i < 50; i++){
 	var char = instance_create_layer(location[0]*8, location[1]*8,"Instances",objCharacter)
 	char.image_index = random(char.image_number)
 	with(char){
-		sprite_set_offset(sprite_index,4,7)
 		depth = -2;
 	}
 }
@@ -34,7 +33,6 @@ for(var i = 0; i < 50; i++){
 var location = findEmptyTile(tilemap)
 var player = instance_create_layer(location[0]*8,location[1]*8,"Instances", objCharacter);
 with(player){
-	//sprite_set_offset(sprite_index,4,7);
 	isPlayer = true;
 	depth= -2
 }

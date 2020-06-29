@@ -2,6 +2,8 @@ stretch = 1 + sin(timer * frequency) * amplitude;
 timer++;
 startX = x
 startY = y
+destX = x;
+destY = y;
 
 if(isPlayer) {
 	key_right = keyboard_check_released(ord("D"));
@@ -13,7 +15,7 @@ if(isPlayer) {
 	vmove = key_down - key_up
 }
 
-if(hmove != 0 or vmove != 0)
+if(hmove != 0 || vmove != 0)
 {
 	var grid = instance_find(objTileMapper, 0);
 	var tileData = getTileAt(grid.tilemap,(x div 8) + hmove, (y div 8) + vmove)
@@ -22,8 +24,8 @@ if(hmove != 0 or vmove != 0)
 		audio_play_sound(sndStep, 0, false)
 		destX = x + (hmove*8)
 		destY = y + (vmove*8)
-		state_switch("Move")
 		surface_free(surfFOV)
+		state_switch("Move")
 	}else{
 		destX = x + (hmove*4)
 		destY = y + (vmove*4)
