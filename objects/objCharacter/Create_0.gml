@@ -11,12 +11,12 @@ destX = 0;
 destY = 0;
 startX = 0;
 startY = 0;
+isPlayer = false;
 
 sprite_set_offset(sprite_index, 4, 7);
 
 /// Create FOV surface
-surfFOV = 0
-
+surfFOV = noone;
 
 ///Setup State Machine
 state_machine_init();
