@@ -1,5 +1,7 @@
 stretch = 1 + sin(timer * frequency) * amplitude;
 timer++;
+startX = x
+startY = y
 
 if(isPlayer) {
 	key_right = keyboard_check_released(ord("D"));
@@ -13,8 +15,6 @@ if(isPlayer) {
 
 if(hmove != 0 or vmove != 0)
 {
-	startX = x
-	startY = y
 	var grid = instance_find(objTileMapper, 0);
 	var tileData = getTileAt(grid.tilemap,(x div 8) + hmove, (y div 8) + vmove)
 	if(tileData != TILE_TREE && tileData != -1){	
@@ -23,12 +23,13 @@ if(hmove != 0 or vmove != 0)
 		destX = x + (hmove*8)
 		destY = y + (vmove*8)
 		state_switch("Move")
+		surface_free(surfFOV)
 	}else{
 		destX = x + (hmove*4)
 		destY = y + (vmove*4)
 		audio_play_sound(sndPlayerHit,0,false)
-		state_switch("Bump")
 		ds_grid_set(grid.tilemap, (x div 8) + hmove, (y div 8) + vmove, TILE_GRASS);
-		surface_free(grid.tileSurf) //should trigger redraw?
+		surface_free(grid.tileSurf)
+		state_switch("Bump")
 	}
 }
