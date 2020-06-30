@@ -19,7 +19,11 @@ if(hmove != 0 || vmove != 0)
 {
 	var grid = instance_find(objTileMapper, 0);
 	var tileData = getTileAt(grid.tilemap,(x div 8) + hmove, (y div 8) + vmove)
-	if(tileData != TILE_TREE && tileData != -1){	
+	var target = getNPCInCell(x div 8 + hmove, y div 8 + vmove)
+	if(target != noone)
+	{
+		attackMelee(target);
+	}else if(tileData != TILE_TREE && tileData != -1){	
 		audio_sound_pitch(sndStep, random_range(0.8,1.2))
 		audio_play_sound(sndStep, 0, false)
 		destX = x + (hmove*8)

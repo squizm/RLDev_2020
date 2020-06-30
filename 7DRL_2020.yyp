@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "511e973e-d31f-41ea-9387-36607588b74d",
+            "Value": {
+                "id": "410e862f-9ffc-4e94-a555-8ef43d55e927",
+                "resourcePath": "objects\\objPopOut\\objPopOut.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "52540db5-cf08-463b-9c3f-8d7c0a91d198",
             "Value": {
                 "id": "b9d67c7f-7043-4e73-9a45-340cbe98dccc",
@@ -375,11 +383,27 @@
             }
         },
         {
+            "Key": "c513a765-7533-4a92-9b7b-04fc7b8beacf",
+            "Value": {
+                "id": "c4c54d44-77fa-4047-b3cc-1d6fae3c20e2",
+                "resourcePath": "scripts\\getNPCInCell\\getNPCInCell.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "32786861-3421-4dc4-b5d9-970072a3b14c",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "e2390bba-63b8-407b-91d4-674b5168e994",
+            "Value": {
+                "id": "923a12f8-4623-4c42-8614-dbdea02dd22a",
+                "resourcePath": "scripts\\attackMelee\\attackMelee.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -467,6 +491,7 @@
         "065d006e-9830-4f53-af36-780177670a83",
         "f521dd16-167b-4f8f-9407-dcbb7df5996a",
         "88a3817a-0fca-4f47-99c4-4df51fcd5c15",
+        "e2390bba-63b8-407b-91d4-674b5168e994",
         "52540db5-cf08-463b-9c3f-8d7c0a91d198",
         "676320f7-67e3-418d-b2ea-a3675fee2d7d",
         "03a0e597-bb7d-445b-863b-05cafbcd9260",
@@ -480,6 +505,7 @@
         "6e73b842-b373-4d99-9d53-8dc49c53777a",
         "2ef1b695-0638-4c58-8416-e04002d2d20f",
         "905f116b-e819-4e09-83ee-277d74bc1ad2",
+        "c513a765-7533-4a92-9b7b-04fc7b8beacf",
         "9ad6a104-5421-4ffc-8c74-a5d51bd68ddc"
     ],
     "tutorial": ""
