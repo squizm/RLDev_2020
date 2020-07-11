@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "4838f1bf-5001-4f38-a3bb-d85789921b4a",
+            "Value": {
+                "id": "483ea681-8daa-42a9-8061-946896092715",
+                "resourcePath": "scripts\\player_state_atack\\player_state_atack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4f9359d5-8d44-4d74-8600-7e54c45850e7",
             "Value": {
                 "id": "7c681ed2-8047-4053-a423-047bc9f4e0a8",
@@ -195,6 +203,14 @@
             "Value": {
                 "id": "17175deb-dfdf-44dc-805d-619ec47afd21",
                 "resourcePath": "scripts\\state_switch\\state_switch.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65b9e4be-2ea3-4c10-8878-81338976ec5c",
+            "Value": {
+                "id": "d5435843-dfda-4423-8e0f-266c65b000e3",
+                "resourcePath": "scripts\\rollForDamage\\rollForDamage.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -284,6 +300,14 @@
                 "id": "9c75883b-fc75-43c3-bd2f-6c581ea71bcf",
                 "resourcePath": "scripts\\player_state_bump\\player_state_bump.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8bd0dbd0-3a8e-41c0-8417-722888bd72c3",
+            "Value": {
+                "id": "fd383fca-713d-419b-8d55-7ee23e3f84b0",
+                "resourcePath": "views\\8bd0dbd0-3a8e-41c0-8417-722888bd72c3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -491,7 +515,9 @@
         "065d006e-9830-4f53-af36-780177670a83",
         "f521dd16-167b-4f8f-9407-dcbb7df5996a",
         "88a3817a-0fca-4f47-99c4-4df51fcd5c15",
+        "4838f1bf-5001-4f38-a3bb-d85789921b4a",
         "e2390bba-63b8-407b-91d4-674b5168e994",
+        "65b9e4be-2ea3-4c10-8878-81338976ec5c",
         "52540db5-cf08-463b-9c3f-8d7c0a91d198",
         "676320f7-67e3-418d-b2ea-a3675fee2d7d",
         "03a0e597-bb7d-445b-863b-05cafbcd9260",

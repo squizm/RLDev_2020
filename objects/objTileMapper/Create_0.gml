@@ -32,6 +32,8 @@ for(var i = 0; i < 50; i++){
 	char.image_index = random(char.image_number)
 	with(char){
 		depth = -2;
+		hp_max = 25;
+		hp_cur = hp_max;
 	}
 }
 
@@ -39,6 +41,8 @@ var location = findEmptyTile(tilemap)
 player = instance_create_layer(location[0]*8,location[1]*8,"Instances", objCharacter);
 with(player){
 	isPlayer = true;
-	depth= -2
+	depth= -3;
+	hp_max = 50;
+	hp_cur = hp_max;
 }
 camera_set_view_target(view_camera[0],player)

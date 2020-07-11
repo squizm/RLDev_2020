@@ -23,6 +23,9 @@ if(hmove != 0 || vmove != 0)
 	if(target != noone)
 	{
 		attackMelee(target);
+		destX = x + (hmove*4)
+		destY = y + (vmove*4)
+		state_switch("Attack")
 	}else if(tileData != TILE_TREE && tileData != -1){	
 		audio_sound_pitch(sndStep, random_range(0.8,1.2))
 		audio_play_sound(sndStep, 0, false)
